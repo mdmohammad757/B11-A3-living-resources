@@ -4,6 +4,8 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>A3 living</title>
+     <!-- icon cdn  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <!-- google font cdn  -->
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,10 +24,11 @@
             theme: {
               extend: {
                 colors: {
-                  clifford: '#da373d',
-                }
-              }
-            }
+                  clifford: '#FFDC26',
+                  'pamper-primary': '#FFDC26',
+                },
+              },
+            },
           }
         </script>
   
@@ -33,11 +36,67 @@
 </head>
 <body class="ADLaM-Display">
      <!-- header section  -->
-      <header>
-         <h1 class="text-3xl">hllow</h1>
+      <header class="lg:px-24">
+        <div class="navbar bg-base-100 bg-[#FFF9F4]">
+          <div class="navbar-start">
+            <div class="flex  items-center">
+              <div class="flex gap-4 text-center">
+               <img src="Assignment_03_Category_0001/c1-assets/logo-header.png" alt="">
+               <a class="lg:flex hidden text-xl lg:m-auto">Browse<span class="text-pamper-primary">4</span>Pets</a>
+              </div>
+            </div>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal text-xl ">
+              <li><a>Find a pet</a></li>
+              <li><a>breeds</a></li>
+              <li><a>contact us</a></li>
+            </ul>
+          </div>
+          <div class="gap-1 navbar-end sm:overflow-hidden">
+            <div class="space-x-6 p-4 lg:flex hidden">
+              <i class="fa-regular fa-bell text-2xl"></i>
+              <i class="fa-solid fa-magnifying-glass text-2xl"></i>
+            </div>
+           <div class="lg:flex gap-1 hidden">
+            <a class="border border-yellow-300 px-1 p-1 rounded-lg">login</a>
+            <a class="bg-pamper-primary px-5 p-1 rounded-lg">Register</a> 
+           </div>
+            <div class="lg:hidden flex">
+              <i class="fa-solid fa-bars"></i>
+             </div> 
+          </div>
+        </div>
       </header>
+          <!-- pamper section  -->
+          <section class="lg:px-24 px-1">
+            <!-- daisyui  -->
+            <div class="my-24">
+              <!-- text container  -->
+                <div>
+                  <h1 class="text-4xl text-black">Pamper Your Pet,<br>
+                    Because They Deserve<br>
+                    the Bes</h1>
+                  <p class="pt-6 text-gray-400 lg:ml-10 lg:relative top-3">
+                    Provident cupiditate voluptatem et in. Quaerat<br> ut assumenda excepturi 
+                    quasi. In deleniti eaque aut repudiandae et a id nisi.
+                  </p>
+                  <button class="bg-pamper-primary px-5 p-1 rounded-lg">Get Started</button>
+                </div>
+                <!-- img container  -->
+                <div class="mb-8 relative">
+                  <img
+                    src="Assignment_03_Category_0001/c1-assets/cat-big.png"
+                    class="w-full "/>
+                </div>
+            </div>
+          </section>
+     
       <!-- main section  -->
        <main>
+          <!-- Browse By Categories section  -->
+    
+           </div>
 
        </main>
        <!-- footer section  -->
